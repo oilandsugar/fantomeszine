@@ -1,0 +1,4 @@
++++
+title = "Details"
+type = "page"
++++

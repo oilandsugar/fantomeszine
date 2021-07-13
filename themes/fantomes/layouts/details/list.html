@@ -1,0 +1,57 @@
+{{ partial "head" . }}
+{{ partial "header" . }}
+
+<main>
+  <div class="content">
+        <h1>{{ .Title }}</h1>
+        The first edition will be printed in black only on a variety of paper
+        colors and sizes. Those will be saddled stitched together with some
+        additional loose inserts.
+        <br />
+        <br />
+        <img src="/img/book.png" width="400" />
+        <h2>Paper dimensions</h2>
+        <table>
+          <thead>
+            <tr>
+              <td>Size</td>
+              <td>Width</td>
+              <td>Height</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Small single page</td>
+              <td>4”</td>
+              <td>5.5”</td>
+            </tr>
+            <tr>
+              <td>Small spread</td>
+              <td>8”</td>
+              <td>5.5”</td>
+            </tr>
+            <tr>
+              <td>Large single page</td>
+              <td>5.5”</td>
+              <td>8.25”</td>
+            </tr>
+            <tr>
+              <td>Large spread</td>
+              <td>11”</td>
+              <td>8.25”</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Paper colors</h2>
+        White<br />
+        Grey<br />
+        Transparent<br />
+        Beige<br />
+        Pale green
+        <p class="center hidden">
+          <a href="/submissions">Submissions open</a>
+        </p>
+      </div>
+</main>
+
+{{ partial "footer" . }}
