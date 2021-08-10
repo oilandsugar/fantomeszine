@@ -1,0 +1,54 @@
+<!-- locale -->
+<meta property="og:locale" content="en_CA" />
+<meta name="language" content="English">
+
+<!-- title -->
+{{ if .IsHome }}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  <meta itemprop="name" content="{{ .Site.Title }}" />
+  <meta name="twitter:title" content="{{ .Site.Title }}" />
+  <meta name="application-name" content="{{ .Site.Title }}" />
+{{ else }}
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}" />
+  <meta itemprop="name" content="{{ .Title }} - {{ .Site.Title }}" />
+  <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}" />
+  <meta name="application-name" content="{{ .Title }} - {{ .Site.Title }}" />
+{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+
+<!-- author -->
+{{- if .Params.author -}}
+<meta name="author" content="{{ .Params.author }}" />
+{{- else -}}
+<meta name="author" content="{{ .Site.Params.author }}" />
+{{- end -}}
+
+<!-- description -->
+<meta property="og:description" content="{{ if .Params.desc }}{{ .Params.desc }}{{ else }}{{ if .Site.Params.desc }}{{ .Site.Params.desc }}{{ else }}Fantômes is a collaborative ghost story zine, bringing together story-telling, poetry, folklore, illustration and photography in small cobbled-together publication.{{ end }}{{ end }}" />
+<meta itemprop="description" content="{{ if .Params.desc }}{{ .Params.desc }}{{ else }}{{ if .Site.Params.desc }}{{ .Site.Params.desc }}{{ else }}Fantômes is a collaborative ghost story zine, bringing together story-telling, poetry, folklore, illustration and photography in small cobbled-together publication.{{ end }}{{ end }}" />
+<meta name="twitter:description" content="{{ if .Params.desc }}{{ .Params.desc }}{{ else }}{{ if .Site.Params.desc }}{{ .Site.Params.desc }}{{ else }}Fantômes is a collaborative ghost story zine, bringing together story-telling, poetry, folklore, illustration and photography in small cobbled-together publication.{{ end }}{{ end }}" />
+<meta name="description" content="{{ if .Params.desc }}{{ .Params.desc }}{{ else }}{{ if .Site.Params.desc }}{{ .Site.Params.desc }}{{ else }}Fantômes is a collaborative ghost story zine, bringing together story-telling, poetry, folklore, illustration and photography in small cobbled-together publication.{{ end }}{{ end }}" />
+
+<!-- url -->
+<base href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+<meta name="url" content="{{ .Permalink }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+<!-- image -->
+<meta property="og:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.image }}{{ end }}" />
+<meta itemprop="image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.image }}{{ end }}" />
+<meta name="twitter:image" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.image }}{{ end }}" />
+<meta name="twitter:image:src" content="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.image }}{{ end }}" />
+
+<!-- misc -->
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="coverage" content="Worldwide" />
+<meta name="distribution" content="Global" />
+<meta name="HandheldFriendly" content="True" />

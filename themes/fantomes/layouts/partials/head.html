@@ -6,7 +6,6 @@
 <html lang="en" id="imghigh">
   <head>
     <meta charset="utf-8">
-    <title>{{ .Site.Title }}</title>
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     {{ .Hugo.Generator }}
@@ -19,28 +18,5 @@
     <link rel="preconnect" href="https://cdn.snipcart.com">
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css" />
     <link rel="stylesheet" href="{{ "css/snipcart-theme.css" | relURL }}">
-    <!-- Facebook Open Graph -->
-    <meta property="og:locale" content="en_CA">
-    <meta property="og:site_name" content="{{ .Site.Title }}">
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:url" content="https://fantomeszine.com">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="A zine of ghost stories, haunting images and occult practices">
-    <meta property="og:image" content="{{ .Site.Params.image | relURL }}">
-
-    <!-- Google+ / Schema.org -->
-    <meta itemprop="name" content="{{ .Site.Title }}">
-    <meta itemprop="description" content="A zine of ghost stories, haunting images and occult practices">
-    <meta itemprop="image" content="{{ .Site.Params.image | relURL }}">
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:title" content="{{ .Site.Title }}">
-    <meta name="twitter:url" content="https://fantomeszine.com">
-    <meta name="twitter:description" content="A zine of ghost stories, haunting images and occult practices">
-    <meta name="twitter:image" content="{{ .Site.Params.image | relURL }}">
-    <meta name="twitter:card" content="summary_large_image">
-
-    <!-- SEO -->
-    <meta name="description" content="A zine of ghost stories, haunting images and occult practices">
-
+    {{ partial "meta" .}}
   </head>

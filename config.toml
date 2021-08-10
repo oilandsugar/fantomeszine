@@ -3,6 +3,11 @@ languageCode = "en-ca"
 theme = "fantomes"
 title = "Fantômes"
 
+[params]
+      image = "/img/preview.png"
+      author = "Lizbeth Poirier"
+      desc = "Fantômes is a collaborative ghost story zine, bringing together story-telling, poetry, folklore, illustration and photography in small cobbled-together publication."
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
@@ -27,6 +32,3 @@ title = "Fantômes"
   lastmod = ["lastmod", ":fileModTime", ":default"]
   publishDate = ["publishDate", "date"]
   expiryDate = ["expiryDate"]
-
-[author]
-      name = "Lizbeth Poirier"
