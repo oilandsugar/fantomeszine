@@ -126,6 +126,10 @@ a {
   color: var(--textColor);
 }
 
+em {
+  font-size:1.2em;
+}
+
 /* -------------- utils ------------- */
 
 .display-none, .hidden {
@@ -234,6 +238,10 @@ img {
   margin: 100px auto 0 auto;
   display: block;
   text-align: center;
+}
+
+.logo h1 {
+  margin-bottom:0;
 }
 
 .skull {
