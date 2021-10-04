@@ -6,7 +6,7 @@
   --spacing_lg: 24px; /* spacing_lg */
   --spacing_xl: 48px; /* spacing_xl */
 
-  --backColor: #adbb93;
+  --backColor: #ade0ae;
   --textColor: #070807;
 
   --mainFont: "Averia Libre";
@@ -205,8 +205,33 @@ img {
 
 /* ----------- content -------------- */
 
+.left-border {
+  position:absolute;
+  left:0;
+  top:0;
+  width:800px;
+  height:800px;
+  pointer-events: none;
+}
+
+.right-border {
+  text-align:right;
+  position:absolute;
+  right:0;
+  top:0;
+  width:400px;
+  height:800px;
+  pointer-events: none;
+}
+
+.left-border img,
+.right-border img {
+  width:auto;
+  height:100%;
+}
+
 .logo {
-  margin: 40px auto 0 auto;
+  margin: 100px auto 0 auto;
   display: block;
   text-align: center;
 }
@@ -223,6 +248,10 @@ img {
 
 .branch {
   text-align: center;
+}
+
+.big-separator img {
+  width:100%;
 }
 
 .desc {
@@ -273,8 +302,7 @@ thead td {
 }
 
 td {
-  padding: 0 24px 0 0;
-  border-bottom: 2px solid;
+  padding: 24px 24px 0 0;
 }
 
 /* -------- FLEX ---------*/
@@ -472,4 +500,10 @@ td {
 
 .no-margin-bottom {
   margin-bottom: 0 !important;
+}
+
+@media screen and (max-width:1000px) {
+  .left-border,.right-border {
+    display:none;
+  }
 }
