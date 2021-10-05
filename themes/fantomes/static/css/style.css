@@ -313,6 +313,26 @@ td {
   padding: 24px 24px 0 0;
 }
 
+.newsletter-form input {
+  border:2px solid;
+  margin:0;
+  line-height:1rem;
+  background:transparent;
+  border-radius:3px;
+  font-family: var(--mainFont);
+  font-weight:bold;
+}
+
+.newsletter-form input[type="submit"] {
+  cursor:pointer;
+}
+
+.newsletter-form input[type="submit"]:hover {
+  background:var(--textColor);
+  color:var(--backColor);
+  border-color:var(--textColor);
+}
+
 /* -------- FLEX ---------*/
 
 .flex-row {
