@@ -1,16 +1,21 @@
-<div class="product">
-  <p class="center">{{ with .Get "price" }}{{ . }}{{ end }}$</p>
-  <button class="snipcart-add-item"
-    data-item-id="{{ with .Get "id" }}{{ . }}{{ end }}"
-    data-item-price="{{ with .Get "price" }}{{ . }}{{ end }}"
-    data-item-url="{{ with .Get "url" }}{{ . }}{{ end }}"
-    data-item-description="{{ with .Get "desc" }}{{ . }}{{ end }}"
-    data-item-image="{{ with .Get "image" }}{{ . }}{{ end }}"
-    data-item-name="{{ with .Get "title" }}{{ . }}{{ end }}"
-    data-item-weight="{{ with .Get "weight" }}{{ . }}{{ end }}"
-    data-item-length="{{ with .Get "length" }}{{ . }}{{ end }}"
-    data-item-height="{{ with .Get "height" }}{{ . }}{{ end }}"
-    data-item-width="{{ with .Get "width" }}{{ . }}{{ end }}">
-    Add to cart
-  </button>
-</div>
+  <div class="product">
+    <div class="row">
+      <div class="price">{{ with .Get "price" }}{{ . }}{{ end }}$</div>
+      <button class="snipcart-add-item"
+        data-item-id="{{ with .Get "id" }}{{ . }}{{ end }}"
+        data-item-price="{{ with .Get "price" }}{{ . }}{{ end }}"
+        data-item-url="{{ with .Get "url" }}{{ . }}{{ end }}"
+        data-item-description="{{ with .Get "desc" }}{{ . }}{{ end }}"
+        data-item-image="{{ with .Get "image" }}{{ . }}{{ end }}"
+        data-item-name="{{ with .Get "title" }}{{ . }}{{ end }}"
+        data-item-weight="{{ with .Get "weight" }}{{ . }}{{ end }}"
+        data-item-length="{{ with .Get "length" }}{{ . }}{{ end }}"
+        data-item-height="{{ with .Get "height" }}{{ . }}{{ end }}"
+        data-item-width="{{ with .Get "width" }}{{ . }}{{ end }}">
+        Add to cart
+      </button>
+    </div>
+    <div class="download">
+    <a href="{{ with .Get "download" }}{{ . }}{{ end }}" download>download the free pdf version</a>
+    </div>
+  </div>

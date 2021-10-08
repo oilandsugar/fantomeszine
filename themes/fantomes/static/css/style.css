@@ -333,8 +333,36 @@ td {
   border-color:var(--textColor);
 }
 
+.issue {
+  text-decoration:none;
+}
+
+.issue h2 {
+  font-family:var(--mainFont);
+  text-align:center;
+  margin-bottom:8px;
+}
+
+.issue h2 span {
+  font-size:18px;
+}
+
 .product {
   text-align:center;
+  padding-top:16px;
+}
+
+.product .price {
+  line-height:46px;
+  padding: 0 16px;
+}
+
+.product .download {
+  margin-top:8px;
+}
+
+.product .row {
+  justify-content:center;
 }
 
 .snipcart-add-item {
@@ -347,11 +375,24 @@ td {
   background:var(--backColor);
   cursor:pointer;
   border-color:var(--textColor);
+  font-family: var(--mainFont);
 }
 
 .snipcart-add-item:hover {
   background:var(--textColor);
   color:var(--backColor);
+}
+
+.single-issue h1 {
+  font-family:var(--mainFont);
+  text-align:center;
+  margin-bottom:24px;
+  margin-top:8px;
+  font-size:30px;
+}
+
+.single-issue h1 span {
+  font-size:20px;
 }
 
 /* -------- FLEX ---------*/
