@@ -333,6 +333,27 @@ td {
   border-color:var(--textColor);
 }
 
+.product {
+  text-align:center;
+}
+
+.snipcart-add-item {
+  line-height:40px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 18px;
+  border:2px solid;
+  border-radius:4px;
+  background:var(--backColor);
+  cursor:pointer;
+  border-color:var(--textColor);
+}
+
+.snipcart-add-item:hover {
+  background:var(--textColor);
+  color:var(--backColor);
+}
+
 /* -------- FLEX ---------*/
 
 .flex-row {
