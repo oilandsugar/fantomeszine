@@ -365,6 +365,15 @@ td {
   justify-content:center;
 }
 
+.preorder-warning {
+  line-height:1em;
+  margin-top:32px;
+  margin-bottom:32px;
+  padding:8px;
+  background:#7ec380;
+  border-radius:4px;
+}
+
 .snipcart-add-item {
   line-height:40px;
   width: 200px;

@@ -1,6 +1,6 @@
   <div class="product">
     <div class="row">
-      <div class="price">{{ with .Get "price" }}{{ . }}{{ end }}$</div>
+      <div class="price">from {{ with .Get "price" }}{{ . }}{{ end }}$</div>
       <button class="snipcart-add-item"
         data-item-id="{{ with .Get "id" }}{{ . }}{{ end }}"
         data-item-price="{{ with .Get "price" }}{{ . }}{{ end }}"
@@ -11,11 +11,19 @@
         data-item-weight="{{ with .Get "weight" }}{{ . }}{{ end }}"
         data-item-length="{{ with .Get "length" }}{{ . }}{{ end }}"
         data-item-height="{{ with .Get "height" }}{{ . }}{{ end }}"
-        data-item-width="{{ with .Get "width" }}{{ . }}{{ end }}">
-        Add to cart
+        data-item-width="{{ with .Get "width" }}{{ . }}{{ end }}"
+        data-item-custom1-name="Version"
+        data-item-custom1-options="{{ with .Get "options" }}{{ . }}{{ end }}"
+        data-item-custom1-required="true"
+        disabled>
+        Pre-order opens soon
       </button>
     </div>
     <div class="download">
-    <a href="{{ with .Get "download" }}{{ . }}{{ end }}" download>download the free pdf version</a>
+    <a class='hidden' href="{{ with .Get "download" }}{{ . }}{{ end }}" download>download the free pdf version</a>
+    </div>
+    <div class="preorder-warning">
+      PLEASE NOTE THIS IS A PRE-ORDER<br/>
+      SHIPPING WILL START IN MID-NOVEMBER
     </div>
   </div>
