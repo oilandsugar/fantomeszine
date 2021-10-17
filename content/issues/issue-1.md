@@ -26,4 +26,4 @@ Learn more on the [artists page](/artists/).
 
 ![](/img/DSC04967.jpg)
 
-Included the the alternate version of the zine.
+Included with the alternate version of the zine.
