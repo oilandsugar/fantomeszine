@@ -404,6 +404,10 @@ td {
   font-size:20px;
 }
 
+.mixtape {
+  text-align:center;
+}
+
 /* -------- FLEX ---------*/
 
 .flex-row {
