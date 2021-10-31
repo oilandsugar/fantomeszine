@@ -15,12 +15,12 @@
         data-item-custom1-name="Version"
         data-item-custom1-options="{{ with .Get "options" }}{{ . }}{{ end }}"
         data-item-custom1-required="true"
-        >
-        Add to cart
+        disabled>
+        Pre-order coming soon
       </button>
     </div>
     <div class="download">
-    <a href="{{ with .Get "download" }}{{ . }}{{ end }}" download>download the free pdf version</a>
+    <a class="hidden" href="{{ with .Get "download" }}{{ . }}{{ end }}" download>download the free pdf version</a>
     </div>
     <div class="preorder-warning">
       PLEASE NOTE THIS IS A PRE-ORDER<br/>
