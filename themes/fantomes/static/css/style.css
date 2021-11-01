@@ -408,6 +408,11 @@ td {
   text-align:center;
 }
 
+.social {
+  text-align:center;
+  padding-top: 16px;
+}
+
 /* -------- FLEX ---------*/
 
 .flex-row {
