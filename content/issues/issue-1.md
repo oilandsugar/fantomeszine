@@ -9,7 +9,10 @@ cover = "/img/DSC04955.jpg"
 - A5 zine, 60 pages  
 - Printed on 4 colors of copy paper and vellum  
 - Includes a bookmark with instructions on how to cut the unopened pages
-- Version with [reproductions of found photos and writings](#found-photos-and-writing-reproductions) from the piece by Mike Wolf available (select the option in the cart)
+
+### Choose between 2 versions after adding in cart
+- zine-only version - 13$
+- zine and [reproductions of found photos and writings](#found-photos-and-writing-reproductions) from the piece by Mike Wolf - 20$
 
 Including grainy and pixelated ghost drawings, spectral hospitality recommendations, a ghostly mixtape, a ghost story in the style of M.R.James and the written and visual work of 18 artists.
 
@@ -22,8 +25,7 @@ Learn more on the [artists page](/artists/).
 ![](/img/DSC04961.jpg)
 ![](/img/DSC04954.jpg)
 
-#### Found photos and writing reproductions
+#### Found photos and writing reproductions included with the 20$ version of the zine
+
 
 ![](/img/DSC04967.jpg)
-
-Included with the alternate version of the zine.
