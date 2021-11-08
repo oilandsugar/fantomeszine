@@ -56,8 +56,8 @@ img {
 
 @font-face {
   font-family: "Black Night";
-  src: url("BlackNight.woff2") format("woff2"),
-    url("BlackNight.woff") format("woff");
+  src: url("./webfonts/BlackNight.woff2") format("woff2"),
+    url("./webfonts/BlackNight.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -65,8 +65,8 @@ img {
 
 @font-face {
   font-family: "Averia Libre";
-  src: url("AveriaLibre-Bold.woff2") format("woff2"),
-    url("AveriaLibre-Bold.woff") format("woff");
+  src: url("./webfonts/AveriaLibre-Bold.woff2") format("woff2"),
+    url("./webfonts/AveriaLibre-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -74,8 +74,8 @@ img {
 
 @font-face {
   font-family: "Averia Libre";
-  src: url("AveriaLibre-Regular.woff2") format("woff2"),
-    url("AveriaLibre-Regular.woff") format("woff");
+  src: url("./webfonts/AveriaLibre-Regular.woff2") format("woff2"),
+    url("./webfonts/AveriaLibre-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -83,8 +83,8 @@ img {
 
 @font-face {
   font-family: "Averia Libre";
-  src: url("AveriaLibre-BoldItalic.woff2") format("woff2"),
-    url("AveriaLibre-BoldItalic.woff") format("woff");
+  src: url("./webfonts/AveriaLibre-BoldItalic.woff2") format("woff2"),
+    url("./webfonts/AveriaLibre-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -92,8 +92,8 @@ img {
 
 @font-face {
   font-family: "Averia Libre";
-  src: url("AveriaLibre-Italic.woff2") format("woff2"),
-    url("AveriaLibre-Italic.woff") format("woff");
+  src: url("./webfonts/AveriaLibre-Italic.woff2") format("woff2"),
+    url("./webfonts/AveriaLibre-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -101,8 +101,8 @@ img {
 
 @font-face {
   font-family: "GothBallCrap";
-  src: url("GothBallCrap-Bold.woff2") format("woff2"),
-    url("GothBallCrap-Bold.woff") format("woff");
+  src: url("./webfonts/GothBallCrap-Bold.woff2") format("woff2"),
+    url("./webfonts/GothBallCrap-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
