@@ -21,14 +21,14 @@ type = "page"
 {{< artist name="Fey" url="https://estfyr.net/" >}}
 {{< artist name="Helvetica Blanc" url="https://helveticablanc.com/" instagram="helveticablanc_" mastodon="https://merveilles.town/@helveticablanc" >}}
 {{< artist name="James Chip" url="https://www.jameschip.io/" mastodon="https://merveilles.town/@jameschip" >}}
-{{< artist name="Jean-Yves" url="https://www.lm6d.com/" instagram="lm6d" >}}
+{{< artist name="Jean-Yves" url="https://www.lm6d.com/" instagram="lm6d" mastodon="https://merveilles.town/@jylm6d" >}}
 {{< artist name="Lizbeth Poirier" url="https://ritualdust.com/" instagram="ritual.dust" mastodon="https://merveilles.town/@ritualdust" >}}
-{{< artist name="Marc-André Huot" url="https://www.huotart.com/" instagram="huotart" >}}
+{{< artist name="Marc-André Huot" url="https://www.huotart.com/" instagram="huotart" mastodon="https://merveilles.town/@Hellien" >}}
 {{< artist name="Mark A. Matienzo" url="https://matienzo.org/" mastodon="https://chaos.social/@anarchivist" >}}
 {{< artist name="Mark Jarrell" url="https://markjarrellart.com/" instagram="sot_mar" >}}
 {{< artist name="Marty Adem" url="https://mephizstudio.com/" >}}
 {{< artist name="Mike Wolf" url="https://wolfmd.me/" mastodon="https://grumpys.online/@grumpy" >}}
-{{< artist name="Perséphone" url="mailto:persephonemusings@gmail.com" >}}
+{{< artist name="Perséphone" url="mailto:persephonemusings@gmail.com" mastodon="https://merveilles.town/@wash_hand_be_tran" >}}
 {{< artist name="Roy Niang" url="https://royniang.com/" >}}
 
 {{</ columns >}}
