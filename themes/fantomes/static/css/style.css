@@ -38,7 +38,7 @@ body {
 }
 
 .columns {
-  columns: 3;
+  columns: 2;
   column-gap: 24px;
 }
 
@@ -413,6 +413,15 @@ td {
   padding-top: 16px;
 }
 
+.artist {
+  line-height:1.2em;
+  margin-bottom:16px;
+}
+
+.mastodon {
+  display:none;
+}
+
 /* -------- FLEX ---------*/
 
 .flex-row {
@@ -468,10 +477,6 @@ td {
   -webkit-flex: 6;
   -ms-flex: 6;
   flex: 6;
-}
-
-.columns {
-  column-count: 3;
 }
 
 .columns-2 {

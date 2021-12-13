@@ -2,95 +2,14 @@
 {{ partial "header" . }}
 
 <main>
-<div class="content">
-  <h1>{{ .Title }}</h1>
-  <div class="small-separator medium-padding-top">
-    <img src="/img/small-separator.png" alt="" />
-  </div>
-    <p>
-      Here is the list of artists that collaborated to the first issue and where to find more of their work.
+  <div class="content">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <br />
+    <p class="center hidden">
+      <a href="/submissions">Submissions open</a>
     </p>
-    <table>
-      <tbody>
-        <tr>
-          <td><strong>Alexa Jade Frankelis</strong></td>
-            <td><a href="https://instagram.com/TheMourningMoon">@TheMourningMoon</a></td>
-            </tr>
-            <tr>
-              <td><strong>Amazey</strong></td>
-              <td><a href="https://weirder.earth/@twistylittlepassages">@twistylittlepassages</a></td>
-            </tr>
-            <tr>
-              <td><strong>Blood and Dust</strong></td>
-              <td><a href="https://blood-and-dust.com/">https://blood-and-dust.com/</a></td>
-            </tr>
-            <tr>
-              <td><strong>Cecil Fenn</strong></td>
-              <td><a href="https:/cecilfenn.com/">https:/cecilfenn.com/</a></td>
-            </tr>
-            <tr>
-              <td><strong>Devine Lu Linvega</strong></td>
-              <td><a href="https://xxiivv.com">https://xxiivv.com</a></td>
-            </tr>
-            <tr>
-              <td><strong>Emma D</strong></td>
-              <td><a href="https://instagram.com/gosen1212">@gosen1212</a></td>
-            </tr>
-            <tr>
-              <td><strong>Fey</strong></td>
-              <td><a href=" https://estfyr.net"> https://estfyr.net</a></td>
-            </tr>
-            <tr>
-              <td><strong>Marc-André Huot</strong></td>
-              <td><a href="https://www.huotart.com">https://www.huotart.com</a></td>
-            </tr>
-            <tr>
-              <td><strong>Helvetica Blanc</strong></td>
-              <td><a href="https://helveticablanc.com">https://helveticablanc.com</a></td>
-            </tr>
-            <tr>
-              <td><strong>James Chip</strong></td>
-              <td><a href="https://www.jameschip.io/">https://www.jameschip.io/</a></td>
-            </tr>
-            <tr>
-              <td><strong>Lizbeth Poirier</strong></td>
-              <td><a href="https://ritualdust.com">https://ritualdust.com</a></td>
-            </tr>
-            <tr>
-              <td><strong>Mark A. Matienzo</strong></td>
-              <td><a href="https://matienzo.org/">https://matienzo.org/</a></td>
-            </tr>
-            <tr>
-              <td><strong>Mark Jarrell</strong></td>
-              <td><a href="https://markjarrellart.com/">https://markjarrellart.com/</a></td>
-            </tr>
-            <tr>
-              <td><strong>Marty Adem</strong></td>
-              <td><a href="https://mephizstudio.com">https://mephizstudio.com</a></td>
-            </tr>
-            <tr>
-              <td><strong>Mike Wolf</strong></td>
-              <td><a href="https://wolfmd.me">https://wolfmd.me</a></td>
-            </tr>
-            <tr>
-              <td><strong>Perséphone</strong></td>
-              <td><a href="mailto:persephonemusings@gmail.com">persephonemusings@gmail.com</a></td>
-            </tr>
-            <tr>
-              <td><strong>Roy Niang</strong></td>
-              <td><a href="https://royniang.com"> https://royniang.com</a></td>
-            </tr>
-            <tr>
-              <td><strong>Jean-Yves</strong></td>
-              <td><a href="https://www.lm6d.com/"> https://www.lm6d.com/</a></td>
-            </tr>
-          </tbody>
-        </table>
-        <br />
-        <p class="center hidden">
-          <a href="/submissions">Submissions open</a>
-        </p>
-      </div>
-    </main>
+  </div>
+</main>
 
-    {{ partial "footer" . }}
+{{ partial "footer" . }}
