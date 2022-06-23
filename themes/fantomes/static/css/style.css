@@ -440,6 +440,28 @@ td {
   font-size:24px;
 }
 
+.colors {
+  display:flex;
+  flex-direction:row;
+}
+
+.color {
+  flex:1;
+  padding: 8px;
+  text-align:center;
+}
+
+.color-sample {
+  height:150px;
+  width: 100%;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: url(/img/color-sample.png);
+  -webkit-mask-image: url(/img/color-sample.png);
+}
+
 /* -------- FLEX ---------*/
 
 .flex-row {
