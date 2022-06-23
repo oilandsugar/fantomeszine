@@ -300,6 +300,11 @@ img {
   border-bottom: 2px solid;
 }
 
+.menu a:hover {
+  border-top: 2px solid var(--lightTextColor);
+  border-bottom: 2px solid var(--lightTextColor);
+}
+
 table {
   border-collapse: collapse;
 }
@@ -420,6 +425,19 @@ td {
 
 .mastodon {
   display:none;
+}
+
+.submission-button {
+  position:relative;
+  margin-top:32px;
+}
+
+.submission-button span {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  top: 38%;
+  font-size:24px;
 }
 
 /* -------- FLEX ---------*/
@@ -618,5 +636,8 @@ td {
 @media screen and (max-width:1000px) {
   .left-border,.right-border {
     display:none;
+  }
+  .submission-button span {
+    position:static;
   }
 }

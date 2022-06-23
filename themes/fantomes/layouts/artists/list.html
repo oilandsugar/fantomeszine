@@ -6,9 +6,7 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
     <br />
-    <p class="center hidden">
-      <a href="/submissions">Submissions open</a>
-    </p>
+    {{ partial "submissions" . }}
   </div>
 </main>
 

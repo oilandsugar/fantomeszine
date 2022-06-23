@@ -4,9 +4,13 @@
 <main>
   <div class="content">
     <h1>{{ .Title }}</h1>
+    <div class="small-separator medium-padding-top">
+      <img src="/img/small-separator.png" alt="" />
+    </div>
     {{ range .Pages }}
       {{ partial "issue" . }}
     {{ end }}
+    {{ partial "submissions" . }}
   </div>
 </main>
 
