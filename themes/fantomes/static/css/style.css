@@ -462,6 +462,10 @@ td {
   -webkit-mask-image: url(/img/color-sample.png);
 }
 
+.deadline {
+  text-align:center;
+}
+
 /* -------- FLEX ---------*/
 
 .flex-row {
