@@ -11,4 +11,5 @@ No stockist yet
 
 ## Europe
 
-[Haus Nostromo](https://hausnostromo.com/)
+- [1909 bookstore (35 - 37 rue des Francs Bourgeois, 75004 Paris)](https://www.instagram.com/1909.bookstore/)
+- [Haus Nostromo (online only)](https://hausnostromo.com/)
