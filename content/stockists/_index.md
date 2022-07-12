@@ -13,3 +13,4 @@ No stockist yet
 
 - [1909 bookstore (35 - 37 rue des Francs Bourgeois, 75004 Paris)](https://www.instagram.com/1909.bookstore/)
 - [Haus Nostromo (online only)](https://hausnostromo.com/)
+- [James Chip's online shop](https://shop.jameschip.io/)
