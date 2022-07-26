@@ -29,6 +29,6 @@ type = "page"
 {{< artist name="Marty Adem" url="https://mephizstudio.com/" >}}
 {{< artist name="Mike Wolf" url="https://wolfmd.me/" mastodon="https://grumpys.online/@grumpy" >}}
 {{< artist name="Perséphone" url="mailto:persephonemusings@gmail.com" mastodon="https://merveilles.town/@wash_hand_be_tran" >}}
-{{< artist name="Romi" url="https://grtsk.com/" mastodon="https://merveilles.town/@romain" >}}
+{{< artist name="Romi" url="https://grtsk.com/" >}}
 
 {{</ columns >}}
