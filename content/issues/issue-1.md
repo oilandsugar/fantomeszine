@@ -16,7 +16,7 @@ cover = "/img/DSC04955.jpg"
 
 Including grainy and pixelated ghost drawings, spectral hospitality recommendations, a ghostly mixtape, a ghost story in the style of M.R.James and the written and visual work of 18 artists.
 
-Including words, illustrations and photographs by Lizbeth Poirier, Mark Jarell, Devine Lu Linvega, Perséphone, Helvetica Blanc, Marty Adem, Amazey, Emma D., Mike Wolf, Hellien, Cecil Fenn, Fey, James Chip, Alexa Jade Frankelis, Roy Niang, Mark A. Matienzo, Blood and Dust and Jean-Yves.
+Including words, illustrations and photographs by Lizbeth Poirier, Mark Jarell, Devine Lu Linvega, Perséphone, Helvetica Blanc, Marty Adem, Amazey, Emma D., Mike Wolf, Hellien, Cecil Fenn, Fey, James Chip, Alexa Jade Frankelis, Romi, Mark A. Matienzo, Blood and Dust and Jean-Yves.
 
 Learn more on the [artists page](/artists/).
 
