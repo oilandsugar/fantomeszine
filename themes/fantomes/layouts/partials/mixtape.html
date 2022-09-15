@@ -1,9 +1,5 @@
 <div class="mixtape">
   <h2>{{ .Title }}</h2>
-  <audio controls>
-    <source src="{{ .Params.file }}" type="audio/mpeg"/>
-    Your browser does not support the html5 audio element, <a href="{{ .Params.file }}">download the mixtape file instead</a>
-  </audio>
   <div class="songlist">
     <h3>Tracklist</h3>
     {{ with .Params.songlist }}
