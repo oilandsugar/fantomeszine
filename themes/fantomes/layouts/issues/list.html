@@ -7,7 +7,7 @@
     <div class="small-separator medium-padding-top">
       <img src="/img/small-separator.png" alt="" />
     </div>
-    {{ range .Pages }}
+    {{ range .Pages.Reverse }}
       {{ partial "issue" . }}
     {{ end }}
     {{ partial "submissions" . }}
