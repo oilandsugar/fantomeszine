@@ -23,7 +23,7 @@ type = "page"
 {{< artist name="Deianeira" url="http://deianeira.co" >}}
 {{< artist name="Devine Lu Linvega" url="https://xxiivv.com/" mastodon="https://merveilles.town/@neauoire" >}}
 {{< artist name="Echo Echo" instagram="echoechoillustrations" >}}
-{{< artist name="Ellie Weaver" >}}
+{{< artist name="Ellie Weaver" instagram="ColdHandsOfGod" >}}
 {{< artist name="Emma D" instagram="gosen1212" >}}
 {{< artist name="Fey" url="https://estfyr.net/" >}}
 {{< artist name="George Parr" instagram="georgejparr" >}}
