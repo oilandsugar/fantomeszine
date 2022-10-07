@@ -5,9 +5,13 @@ type = "page"
 
 I am slowly reaching out to small independent libraries and distros in order to get more stockists, if you're interested in stocking the zine, please reach out at fantomeszine@gmail.com
 
-## Canada and US
+## Canada
 
 No stockist yet
+
+## US
+
+- [Ritual Cravt (7700 W. 44th Ave. Unit 1 Wheat Ridge, CO 80033)](https://www.ritualcravt.com/)
 
 ## Europe
 
