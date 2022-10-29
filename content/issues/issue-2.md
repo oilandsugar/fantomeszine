@@ -1,32 +1,30 @@
 +++
 title = "Issue 2"
 season = "Fall 2022"
-cover = "/img/DSC04955.jpg"
+cover = "/img/DSC00355.jpg"
 draft = true
 +++
 
-{{< product title="Fantômes Zine - Issue - 2 Fall 2022" desc="A zine of ghost stories, haunting images and occult practices." price="13" id="fantomes-issue-1" image="/img/first-edition-hero.jpg" weight="100" length="19" height="1" width="14" options="Zine without found photos and writings|Zine with photos and writings[+7.00]" url="https://fantomeszine.com/issues/issue-2" download="/issues/fantomes-issue-1-fall-2021_free-version.pdf" >}}
+{{< product title="Fantômes Zine - Issue - 2 Fall 2022" desc="A zine of ghost stories, haunting images and occult practices." price="15" id="fantomes-issue-2" image="/img/DSC00355.jpg" weight="100" length="19" height="1" width="14" options="Zine alone|Zine with print[+40.00]" url="https://fantomeszine.com/issues/issue-2" download="/issues/fantomes-issue-2-fall-2022_free-version.pdf" preorder="true" >}}
 
-- A5 zine, 60 pages  
-- Printed on 4 colors of copy paper and vellum  
-- Includes a bookmark with instructions on how to cut the unopened pages
+- A5 zine, 64 pages  
+- Printed on 3 colors of copy paper and vellum  
 
 ### Choose between 2 versions after adding in cart
-- zine-only version - 13$
-- zine and [reproductions of found photos and writings](#found-photos-and-writing-reproductions) from the piece by Mike Wolf - 20$
+- zine-only version - 15$
+- zine and [art print of the cover illustration](#art-print-of-the-cover-illustration) - 55$
 
-Including grainy and pixelated ghost drawings, spectral hospitality recommendations, a ghostly mixtape, a ghost story in the style of M.R.James and the written and visual work of 18 artists.
+Including grainy ghost drawings, the history and remnants of the Milner Field Manor, a cursed victorian mansion, a ghostly mixtape, an essay on ghost lands in early 29th century literature and the written and visual work of 23 artists.
 
-Including words, illustrations and photographs by Lizbeth Poirier, Mark Jarell, Devine Lu Linvega, Perséphone, Helvetica Blanc, Marty Adem, Amazey, Emma D., Mike Wolf, Hellien, Cecil Fenn, Fey, James Chip, Alexa Jade Frankelis, Romi, Mark A. Matienzo, Blood and Dust and Jean-Yves.
+Featuring words, illustrations and photographs by Lizbeth Poirier, Deianara, Teye Gerbracht, Aleco Julius, Grey Malkin, Robbie Porter, Hundred Rabbits, Cory Driscoll, Lexi Knott, Aodren, Sam Derby, Thomas Robertson, Jason Abdelhadi, Lia Vé, Fey, Oz Hardwick, Madeline, Amelia Wild, Ellie Weaver, Georges Parr, Bunty May Marshall, Josh Maybrook and Echo Echo.
 
 Learn more on the [artists page](/artists/).
 
-![](/img/DSC04956.jpg)
-![](/img/DSC04959.jpg)
-![](/img/DSC04961.jpg)
-![](/img/DSC04954.jpg)
+![](/img/DSC00366.jpg)
+![](/img/DSC00368.jpg)
+![](/img/DSC00373.jpg)
+![](/img/DSC00376.jpg)
 
-#### Found photos and writing reproductions included with the 20$ version of the zine
+#### Art print of the cover illustration
 
-
-![](/img/DSC04967.jpg)
+![](/img/print.jpg)

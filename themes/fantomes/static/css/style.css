@@ -52,6 +52,10 @@ img {
   mix-blend-mode: darken;
 }
 
+.details img {
+  mix-blend-mode: normal;
+}
+
 /* ---------- typography ----------- */
 
 @font-face {

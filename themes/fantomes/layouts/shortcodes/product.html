@@ -22,7 +22,14 @@
     <div class="download">
     <a href="{{ with .Get "download" }}{{ . }}{{ end }}" download>download the free pdf version</a>
     </div>
-    <div class="preorder-warning">
-      THERE IS A COUPLE OF COPIES LEFT,<br/> ORDERS WILL BE SHIPPED THE SAME WEEK
-    </div>
+    {{ with .Get "preorder" }}
+      <div class="preorder-warning">
+        THIS IS A PRE-ORDER, COPIES WILL START SHIPPING AT THE END OF NOVEMBER
+      </div>
+    {{ end }}
+    {{ with .Get "lowstock" }}
+      <div class="preorder-warning">
+        THERE IS A COUPLE OF COPIES LEFT,<br/> ORDERS WILL BE SHIPPED THE SAME WEEK
+      </div>
+    {{ end }}
   </div>
