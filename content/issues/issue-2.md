@@ -27,4 +27,6 @@ Learn more on the [artists page](/artists/).
 
 #### Art print of the cover illustration
 
+This year I offer a limited edition art print of the illustration cover realized by Lizbeth Poirier ([ritualdust](https://ritualdust.com)). The print measures 11" x 14" and is printed on heavy Hahnemühle William Turner paper. All prints are numbered and signed by the artist.
+
 ![](/img/print.jpg)
