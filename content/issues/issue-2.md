@@ -2,7 +2,7 @@
 title = "Issue 2"
 season = "Fall 2022"
 cover = "/img/DSC00355.jpg"
-draft = true
+draft = false
 +++
 
 {{< product title="Fantômes Zine - Issue - 2 Fall 2022" desc="A zine of ghost stories, haunting images and occult practices." price="15" id="fantomes-issue-2" image="/img/DSC00355.jpg" weight="100" length="19" height="1" width="14" options="Zine alone|Zine with print[+40.00]" url="https://fantomeszine.com/issues/issue-2" download="/issues/fantomes-issue-2-fall-2022_free-version.pdf" preorder="true" >}}
