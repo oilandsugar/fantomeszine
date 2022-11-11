@@ -29,4 +29,5 @@ Learn more on the [artists page](/artists/).
 
 This year I offer a limited edition art print of the illustration cover realized by Lizbeth Poirier ([ritualdust](https://ritualdust.com)). The print measures 11" x 14" and is printed on heavy Hahnemühle William Turner paper. All prints are numbered and signed by the artist.
 
-![](/img/print.jpg)
+![Photo of the art print of the cemetery illustration featuring on the cover of the zine](/img/print-1.jpg)
+![Close-up of the print showing the details of the drawing and the deep blacks of the print](/img/print-2.jpg)
