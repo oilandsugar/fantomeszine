@@ -6,7 +6,7 @@ cover = "/img/ghost-stories-cover.jpg"
 date = "2026-10-31"
 +++
 
-{{< product title="Ghost Stories Zine - Issue - 1 - Fall 2026" desc="Collected personal ghost stories, cryptid lore, and photography zine" price="15" id="ghost-stories-issue-1" image="/img/ghost-stories-cover.jpg" weight="100" length="19" height="1" width="14"  url="https://fantomeszine.com/issues/ghost-stories-1" download="/issues/ghost-stories-zine-issue-1-fall-2026_free-version.pdf" >}}
+{{< product title="Ghost Stories Zine - Issue - 1 - Fall 2026" desc="Collected personal ghost stories, cryptid lore, and photography zine" price="15" id="ghost-stories-issue-1" image="/img/ghost-stories-cover.jpg" weight="100" length="19" height="1" width="14" options="Zine alone" url="https://fantomeszine.com/issues/ghost-stories-1" download="/issues/ghost-stories-zine-issue-1-fall-2026_free-version.pdf" >}}
 
 - A5 zine, 36 pages  
 - Printed in black and white on matte paper  
