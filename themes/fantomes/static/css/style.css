@@ -121,6 +121,12 @@ h2 {
   font-family: "GothBallCrap";
 }
 
+h3.inline {
+    display:inline-block;
+    margin:0;
+    text-decoration: inherit;
+}
+
 small {
   font-size: 14px;
   line-height: 14px;

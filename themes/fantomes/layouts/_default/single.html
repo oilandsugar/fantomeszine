@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+
+<main>
+    <article>
+        <div id="content">
+            {{ .Content }}
+        </div>
+    </article>
+</main>
+
+{{ partialCached "footer" . }}

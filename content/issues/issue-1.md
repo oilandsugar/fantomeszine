@@ -1,7 +1,9 @@
 +++
 title = "Issue 1"
+name = "Fantômes"
 season = "Fall 2021"
 cover = "/img/DSC04955.jpg"
+date = "2021-10-31"
 +++
 
 {{< product title="Fantômes Zine - Issue - 1 Fall 2021" desc="A zine of ghost stories, haunting images and occult practices." price="13" id="fantomes-issue-1" image="/img/first-edition-hero.jpg" weight="100" length="19" height="1" width="14" options="Zine without found photos and writings|Zine with photos and writings[+7.00]" url="https://fantomeszine.com/issues/issue-1" download="/issues/fantomes-issue-1-fall-2021_free-version.pdf" lowstock="true" >}}

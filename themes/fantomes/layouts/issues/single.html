@@ -1,11 +1,10 @@
-{{ partial "head" . }}
 {{ partial "header" . }}
 
 <main>
   <div class="content single-issue">
     <img src="{{ .Params.cover }}"/>
     <h1>
-      <span>{{ .Title }} •</span> Fantômes <span>• {{ .Params.season }}</span>
+      <span>{{ .Title }} •</span> {{ .Params.name }} <span>• {{ .Params.season }}</span>
     </h1>
     <div class="details">
       {{.Content}}
